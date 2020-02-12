@@ -1,0 +1,8 @@
+if [ $# -gt 0 ]; then
+  $*
+else
+  #exec i3
+  openbox-session
+  # Alternatively, you can also use xfce4:
+  # xfce4-session
+fi
